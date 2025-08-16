@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+  <div class="main">
+    <div class="pointer"></div>
+    <canvas id="wheelCanvas"></canvas>
+    <button class="spin-btn">🎯</button>
+
+    <!-- Winner modal -->
+    <div class="winner-modal" id="winnerModal">
+      <h2>🎉 The Winner Is:</h2>
+      <p id="winnerName"></p>
+      <button class="keep-btn">✅ Keep</button>
+      <button class="remove-btn" >❌ Remove</button>
+      <button class="close-btn" >✖ Close</button>
+    </div>
+
+    <canvas class="confetti" id="confettiCanvas"></canvas>
+
+    <!-- Bottom input -->
+    <div class="input-section">
+      <input type="text" id="nameInput" placeholder="Enter name...">
+      <button onclick="addName()">Add</button>
+    </div>
+  </div>
+</body>
+</html>

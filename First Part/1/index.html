@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+      <div class="pointer"></div>
+      <canvas id="wheelCanvas"></canvas>
+      <button class="spin-btn">🎯</button>
+      <div class="winner" id="winnerBox"></div>
+      <div class="controls" id="controlBtns">
+        <button style="background: red; color: white;" >❌ Remove Winner</button>
+        <button style="background: green; color: white;">✅ Keep Winner</button>
+      </div>
+    </div>
+     <div class="input-box">
+      <h3>افزودن نام</h3>
+      <input type="text" id="nameInput" placeholder="مثلاً: علی"/>
+      <button onclick="addName()">➕ افزودن</button>
+      <ul id="nameList"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
