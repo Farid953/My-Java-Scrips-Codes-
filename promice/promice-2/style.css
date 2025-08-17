@@ -1,0 +1,18 @@
+.parnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parnt button{
+    justify-content: center;
+    align-items: center;
+
+}
+.parnt h3{
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+     margin-top: 150px;
+}
